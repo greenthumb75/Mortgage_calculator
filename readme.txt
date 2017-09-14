@@ -1,0 +1,3 @@
+Mortgage calculator that takes as input the principal loan amount, interest rate, and monthly payment. As output, it generates an amortization table, and computes how many years and months it takes to pay off the mortgage, and report the total amount of payments over that time.
+
+The program then calculates the number of months using a while loop to run through the paying down of the loan by testing whether the monthly payment is greater than or equal to the balance each iteration. This would be better done in a function so that it would not need to be written a second time in the for loop. The while loop tests for monthly payments that are too low and kills the loop accordingly.
